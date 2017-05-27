@@ -1,12 +1,12 @@
 #Вычисление выражения
-import math
+from math import *
+K=1
+a=1
+r=1
+x=1
+b=1
+y=1
+D= (K**(-a*r*x) - a*sqrt(6) - cos(3*a*b)) / sin(a*asin(x) + log(y))**2
 
-print ('Вычисление математического выражения (вар.19)')
-
-x = float(input('x = '))
-a = 3.7
-p = x**2 - math.sqrt(abs(x))
-t = x**2 + a**2
-
-print ('p = ',p,'\nt= ',t)
+print (D)
 

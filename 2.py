@@ -1,12 +1,6 @@
 #Вычисление выражения
 import math
-
-print ('Вычисление математического выражения (вар.19)')
-
-x = float(input('x = '))
-a = 3.7
-p = x**2 - math.sqrt(abs(x))
-t = x**2 + a**2
-
-print ('p = ',p,'\nt= ',t)
-
+y=1
+q=1
+E= math.log(0.7*y+2*q)/math.sqrt(3*y**2 + 0.5*y+4)
+print(E)
